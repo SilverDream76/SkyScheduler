@@ -100,7 +100,7 @@ export const ALLOW_AUTO_FOLLOW: boolean = false;
 // It is heavily encouraged to make sure that queues are on and configured if these are not set to Hour
 
 export const POSTING_TIME_INTERVAL: TimeIntervalSettings =
-  TimeIntervalSettings.HalfHour;
+  1;
 
 export const REPOSTING_TIME_INTERVAL: TimeIntervalSettings =
   TimeIntervalSettings.QuarterHour;
