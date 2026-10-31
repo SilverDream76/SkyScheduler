@@ -90,7 +90,7 @@ simple = { limit = 10, period = 10 }
 #  ~3:37am on sunday for big cleanups
 #  the first of every month to reset server fund stats
 [triggers]
-crons = [ "0 0 1 */1 *", "37 03 * * sun", "*/30 * * * *", "*/15 * * * *" ]
+crons = [ "0 0 1 */1 *", "37 03 * * sun", "*/30 * * * *", "*/15 * * * *", "* * * * *" ]
 
 # flags required to run wrangler in linux
 [dev]
